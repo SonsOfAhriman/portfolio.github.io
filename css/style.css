@@ -1,0 +1,98 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+@import url("components/banner.css");
+@import url("components/cards.css");
+@import url("components/footer.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: #B2B2B3;
+  font-size: 16px;
+}
+
+.contain {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.align-center {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.section-work {
+  display: block;
+}
+
+.card-grid {
+  margin: 0 auto;
+  margin-top: 4rem;
+  width: 88vw;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 8rem;
+  align-items: center;
+  transition: 800ms ease-in-out;
+  margin-bottom: 12rem;
+}
+
+.card-work-img {
+    width: 32rem;
+    height: 17rem;
+    border-radius: 4px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-work-txt {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    text-align: left;
+    font-size: 1.2rem;
+    letter-spacing: 0.08rem;
+    text-transform: uppercase;
+}
+
+.card-text {
+    color: #033033;
+    font-weight: lighter;
+}
+
+.card-work-txt a {
+    text-decoration: none;
+    color: #033033;
+    transition: 400ms ease-in-out;
+}
+
+.arrow {
+    border: 1px solid #E56299;
+    color: #E56299;
+    border-radius: 50%;
+    padding: 0.2rem 0.42rem;
+    margin-left: 0.4rem;
+    transition: 400ms ease-in-out;
+}
+
+/* Custom design below! */
+
